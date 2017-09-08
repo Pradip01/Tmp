@@ -1,0 +1,89 @@
+{% extends "layouts/default.html" %}
+
+{% block content %}
+<section>
+    <div class="field">
+        <div class="key">Unique ID</div>
+        <div class="value">{{entry.uid}}</div>
+    </div>
+    
+			<div class='field'><div class='key'>Title</div><div class='value'>{{entry.title}}</div></div>
+			<div class='field'><div class='key'>URL</div><div class='value'>{{entry.url}}</div></div>
+			<div class='field'>
+			<div class='key'>Banner</div>
+			<div class='group-field'>
+				<div class='field'><div class='key'>Heading</div><div class='value'>{{entry.banner.heading}}</div></div>
+				<div class='field'><div class='key'>Description</div><div class='value'>{{entry.banner.description}}</div></div>
+				<div class='field'>
+					<div class='key'>Banner image(url) </div> <div class='file'><a href='{{getAssetUrl(entry.banner.banner_image)}}'>{{entry.banner.banner_image.filename}}</a></div>
+				</div>
+			</div>
+			</div>
+			<div class='field'>
+			<div class='key'>Passion project section</div>
+			<div class='group-field'>
+				<div class='field'><div class='key'>Title</div><div class='value'>{{entry.passion_project_section.title}}</div></div>
+				<div class='field'><div class='key'>slash</div><div class='value'>{{entry.passion_project_section.slash}}</div></div>
+				<div class='field'><div class='key'>Description</div><div class='value'>{{entry.passion_project_section.description}}</div></div>
+				<div class='field'>
+				<div class='key'>CTA</div>
+				<div class='group-field'>
+					<div class='field'><div class='key'>Title</div><div class='value'>{{entry.passion_project_section.cta.title}}</div></div>
+					<div class='field'><div class='key'>Link</div><div class='value'>{{entry.passion_project_section.cta.link}}</div></div>
+				</div>
+				</div>
+			</div>
+			</div>
+			<div class='field'>
+			<div class='key'>Images section</div>
+			<div class='group-field'>
+				<div class='field'>
+				<div class='key'>images</div>
+					{% set entry_images_section_images = entry.images_section.images %}
+					{% for _entry_images_section_images in entry_images_section_images -%}
+				 <div class='group-field'> 
+							<div class='field'><div class='key'>Title</div><div class='value'>{{_entry_images_section_images.title}}</div></div>
+							<div class='field'>
+								<div class='key'>Image(url) </div> <div class='file'><a href='{{getAssetUrl(_entry_images_section_images.image)}}'>{{_entry_images_section_images.image.filename}}</a></div>
+							</div>
+				 </div>
+					{%- endfor %}
+				</div>
+			</div>
+			</div>
+			<div class='field'>
+			<div class='key'>Contact-section</div>
+			<div class='group-field'>
+				<div class='field'><div class='key'>Title</div><div class='value'>{{entry.contact_section.title}}</div></div>
+				<div class='field'><div class='key'>Sub Title</div><div class='value'>{{entry.contact_section.sub_title}}</div></div>
+				<div class='field'>
+				<div class='key'>CTA</div>
+				<div class='group-field'>
+					<div class='field'><div class='key'>Title</div><div class='value'>{{entry.contact_section.cta.title}}</div></div>
+					<div class='field'><div class='key'>Link</div><div class='value'>{{entry.contact_section.cta.link}}</div></div>
+					<div class='field'><div class='key'>Email</div><div class='value'>{{entry.contact_section.cta.email}}</div></div>
+					<div class='field'><div class='key'>Comment</div><div class='value'>{{entry.contact_section.cta.comment}}</div></div>
+				</div>
+				</div>
+			</div>
+			</div>
+			<div class='field'>
+			<div class='key'>Fundamentals section</div>
+			<div class='group-field'>
+				<div class='field'><div class='key'>Heading</div><div class='value'>{{entry.fundamentals_section.heading}}</div></div>
+				<div class='field'><div class='key'>slash</div><div class='value'>{{entry.fundamentals_section.slash}}</div></div>
+				<div class='field'><div class='key'>Sub heading</div><div class='value'>{{entry.fundamentals_section.sub_heading}}</div></div>
+				<div class='field'>
+					<div class='key'>File(url) </div> <div class='file'><a href='{{getAssetUrl(entry.fundamentals_section.file)}}'>{{entry.fundamentals_section.file.filename}}</a></div>
+				</div>
+				<div class='field'><div class='key'>Description</div><div class='value'>{{entry.fundamentals_section.description}}</div></div>
+			</div>
+			</div>
+			<div class='field'><div class='key'>Single line textbox</div><div class='value'>{{entry.single_line}}</div></div>
+    <div class="note" style="margin: 50px 0 0;">
+        <div class="key">Note:</div>
+        <div class="value" style="width: 100%; font-size: 15px;"><i>Template automatically generated at "/home/pradeep/Documents/Practice/New-Contentstack-Express/test-sync/themes/basic/templates/pages/home/index.html"</i></div>
+    </div>
+</section>
+{% endblock %}
+
