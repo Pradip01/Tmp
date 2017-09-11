@@ -15,8 +15,10 @@ module.exports = exports = {
     storage: {
         provider: 'mongodb', // || adapter: 'mongodb'
             dbName: 'contentstack',
+            // username: 'user',	// OPTIONAL
+            // password: 'user',
             server: {
-                host: 'localhost',
+                host: 'https://s3-asset-testing.herokuapp.com/',
                 port: 27017
             }
     },
