@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="640b40c3-c93d-4a3c-93ff-98f7da81ebf3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_logs/access-logs.log" afterPath="$PROJECT_DIR$/_logs/access-logs.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_logs/sync-logs.log" afterPath="$PROJECT_DIR$/_logs/sync-logs.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/all.js" afterPath="$PROJECT_DIR$/config/all.js" />
@@ -63,8 +64,8 @@
       <file leaf-file-name="all.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/all.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="360">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -413,7 +414,7 @@
       <updated>1504850008547</updated>
       <workItem from="1504850010080" duration="1333000" />
       <workItem from="1504852300315" duration="22374000" />
-      <workItem from="1505103435915" duration="8138000" />
+      <workItem from="1505103435915" duration="12112000" />
     </task>
     <task id="LOCAL-00001" summary="added language support">
       <created>1504850127997</created>
@@ -447,7 +448,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31845000" />
+    <option name="totallyTimeSpent" value="35819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
@@ -679,8 +680,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="360">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding />
         </state>
       </provider>

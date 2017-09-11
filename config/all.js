@@ -14,12 +14,12 @@ module.exports = exports = {
     plugins: {},
     storage: {
         provider: 'mongodb', // || adapter: 'mongodb'
-            dbName: 'contentstack',
-            // username: 'user',	// OPTIONAL
-            // password: 'user',
+            dbName: 'heroku_1m62kr4r',
+            username: 'user',	// OPTIONAL
+            password: 'user1234',
             server: {
-                host: 'https://s3-asset-testing.herokuapp.com/',
-                port: 27017
+                host: 'ds129344.mlab.com',
+                port: 29344
             }
     },
     contentstack: {
