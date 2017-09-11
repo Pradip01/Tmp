@@ -13,7 +13,7 @@ module.exports = exports = {
     ],
     plugins: {},
     // mongodb://heroku_gj1pqs7w:gtmu1jgpjjcck8est63qie3fk5@ds133104.mlab.com:33104/heroku_gj1pqs7w
-   /* storage: {
+    storage: {
         provider: 'mongodb', // || adapter: 'mongodb'
         dbName: 'heroku_gj1pqs7w',
         username: 'heroku_gj1pqs7w',	// OPTIONAL
@@ -22,7 +22,7 @@ module.exports = exports = {
             host: 'ds129344.mlab.com',
             port: 33104
         }
-    },*/
+    },
    /* storage: {
         provider: 'mongodb', // || adapter: 'mongodb'
             dbName: 'new-cs',
