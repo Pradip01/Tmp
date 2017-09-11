@@ -15,12 +15,12 @@ module.exports = exports = {
     // mongodb://heroku_gj1pqs7w:gtmu1jgpjjcck8est63qie3fk5@ds133104.mlab.com:33104/heroku_gj1pqs7w
     storage: {
         provider: 'mongodb', // || adapter: 'mongodb'
-        dbName: 'heroku_gj1pqs7w',
-        username: 'heroku_gj1pqs7w',	// OPTIONAL
-        password: 'gtmu1jgpjjcck8est63qie3fk5',
+        dbName: 'heroku_1m5djxh6',
+        username: 'heroku_1m5djxh6',    // OPTIONAL
+        password: 'rql1nkr6h4b4crou2v46jg7ic0',
         server: {
-            host: 'ds129344.mlab.com',
-            port: 33104
+            host: 'ds133084.mlab.com',
+            port: 33084
         }
     },
    /* storage: {
