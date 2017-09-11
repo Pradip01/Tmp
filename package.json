@@ -1,11 +1,12 @@
 {
-    "name": "test-sync",
-    "version": "0.0.1",
-    "dependencies": {
-        "aws-sdk": "^2.108.0",
-        "contentstack-express": "^3.0.0"
-    },
-    "scripts": {
-        "start": "node app.js"
-    }
+  "name": "test-sync",
+  "version": "0.0.1",
+  "dependencies": {
+    "aws-sdk": "^2.108.0",
+    "contentstack-express": "^3.0.0",
+    "mongodb": "^2.2.31"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
 }
