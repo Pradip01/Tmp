@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="640b40c3-c93d-4a3c-93ff-98f7da81ebf3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_logs/access-logs.log" afterPath="$PROJECT_DIR$/_logs/access-logs.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_logs/sync-logs.log" afterPath="$PROJECT_DIR$/_logs/sync-logs.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/all.js" afterPath="$PROJECT_DIR$/config/all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/contentstack-express/lib/utils/db/helper.js" afterPath="$PROJECT_DIR$/node_modules/contentstack-express/lib/utils/db/helper.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/contentstack-express/lib/sync/helper.js" afterPath="$PROJECT_DIR$/node_modules/contentstack-express/lib/sync/helper.js" />
     </list>
     <ignored path="asset-testing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,12 +30,15 @@
         <entry file="file://$PROJECT_DIR$/node_modules/contentstack-express/lib/sync/helper.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-430">
-              <caret line="688" column="56" selection-start-line="688" selection-start-column="56" selection-end-line="688" selection-end-column="56" />
+              <caret line="696" column="56" selection-start-line="696" selection-start-column="56" selection-end-line="696" selection-end-column="56" />
               <folding>
                 <element signature="e#1763#4367#0" expanded="false" />
                 <element signature="e#4458#9608#0" expanded="false" />
                 <element signature="e#9670#14162#0" expanded="false" />
                 <element signature="n#!!block;n#getAssetUrl#0" expanded="false" />
+                <marker date="1505123970161" expanded="true" signature="17701:17719" ph="{...}" />
+                <marker date="1505123970161" expanded="true" signature="19309:19329" ph="{...}" />
+                <marker date="1505123970161" expanded="true" signature="19309:19343" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -66,8 +67,8 @@
       <file leaf-file-name="all.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/all.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="345">
+              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -234,7 +235,7 @@
       <updated>1504850008547</updated>
       <workItem from="1504850010080" duration="1333000" />
       <workItem from="1504852300315" duration="22374000" />
-      <workItem from="1505103435915" duration="15206000" />
+      <workItem from="1505103435915" duration="16311000" />
     </task>
     <task id="LOCAL-00001" summary="added language support">
       <created>1504850127997</created>
@@ -268,7 +269,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38913000" />
+    <option name="totallyTimeSpent" value="40018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
@@ -440,12 +441,15 @@
     <entry file="file://$PROJECT_DIR$/node_modules/contentstack-express/lib/sync/helper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-430">
-          <caret line="688" column="56" selection-start-line="688" selection-start-column="56" selection-end-line="688" selection-end-column="56" />
+          <caret line="696" column="56" selection-start-line="696" selection-start-column="56" selection-end-line="696" selection-end-column="56" />
           <folding>
             <element signature="e#1763#4367#0" expanded="false" />
             <element signature="e#4458#9608#0" expanded="false" />
             <element signature="e#9670#14162#0" expanded="false" />
             <element signature="n#!!block;n#getAssetUrl#0" expanded="false" />
+            <marker date="1505123970161" expanded="true" signature="17701:17719" ph="{...}" />
+            <marker date="1505123970161" expanded="true" signature="19309:19329" ph="{...}" />
+            <marker date="1505123970161" expanded="true" signature="19309:19343" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -500,8 +504,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/all.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="345">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
           <folding />
         </state>
       </provider>
