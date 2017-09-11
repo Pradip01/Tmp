@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="640b40c3-c93d-4a3c-93ff-98f7da81ebf3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_content/en-us/data/_routes.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_content/en-us/data/home.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_content/en-us/data/rte_assets.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_content/en-us/data/testing.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_content/ja-jp/data/_routes.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_content/ja-jp/data/home.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_content/ja-jp/data/rte_assets.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_content/ja-jp/data/testing.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/contentstack-express/.gitignore" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/contentstack-express/lib/framework/plugins/template-manager/helper.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/contentstack-express/lib/sync/forkSync.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/contentstack-express/lib/utils/db/providers/mongodb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_logs/access-logs.log" afterPath="$PROJECT_DIR$/_logs/access-logs.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_logs/sync-logs.log" afterPath="$PROJECT_DIR$/_logs/sync-logs.log" />
     </list>
     <ignored path="asset-testing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,18 +55,18 @@
       <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/contentstack-express/lib/framework/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1980">
-              <caret line="187" column="65" selection-start-line="187" selection-start-column="65" selection-end-line="187" selection-end-column="65" />
+            <state relative-caret-position="225">
+              <caret line="199" column="23" selection-start-line="199" selection-start-column="23" selection-end-line="199" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/basic/templates/pages/rte_assets/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -72,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="all.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/all.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+            <state relative-caret-position="345">
+              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -95,11 +105,11 @@
         <option value="$PROJECT_DIR$/node_modules/contentstack-express/lib/framework/application.js" />
         <option value="$PROJECT_DIR$/node_modules/contentstack-old-express/lib/sync/sync.js" />
         <option value="$PROJECT_DIR$/node_modules/contentstack-express-s3/lib/sync/helper.js" />
-        <option value="$PROJECT_DIR$/config/all.js" />
         <option value="$PROJECT_DIR$/_content/en-us/assets/_assets.json" />
         <option value="$PROJECT_DIR$/node_modules/contentstack-express/lib/sync/sync.js" />
         <option value="$PROJECT_DIR$/node_modules/contentstack-express/lib/sync/helper.js" />
         <option value="$PROJECT_DIR$/themes/basic/templates/pages/rte_assets/index.html" />
+        <option value="$PROJECT_DIR$/config/all.js" />
       </list>
     </option>
   </component>
@@ -159,6 +169,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="asset-testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asset-testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asset-testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asset-testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asset-testing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en-us" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -243,7 +285,7 @@
       <updated>1504850008547</updated>
       <workItem from="1504850010080" duration="1333000" />
       <workItem from="1504852300315" duration="22374000" />
-      <workItem from="1505103435915" duration="5004000" />
+      <workItem from="1505103435915" duration="5794000" />
     </task>
     <task id="LOCAL-00001" summary="added language support">
       <created>1504850127997</created>
@@ -266,11 +308,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505109385289</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="make it better">
+      <created>1505109440555</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1505109440555</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28711000" />
+    <option name="totallyTimeSpent" value="29501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
@@ -368,6 +417,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="149" column="19" selection-start-line="149" selection-start-column="19" selection-end-line="149" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -459,22 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/contentstack-express/lib/framework/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="187" column="65" selection-start-line="187" selection-start-column="65" selection-end-line="187" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/basic/templates/pages/testing/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -483,10 +519,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/contentstack-express/lib/sync/forkSync.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/basic/templates/pages/rte_assets/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/contentstack-express/lib/framework/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="199" column="23" selection-start-line="199" selection-start-column="23" selection-end-line="199" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding />
         </state>
       </provider>
