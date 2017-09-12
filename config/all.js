@@ -25,7 +25,7 @@ module.exports = exports = {
     },
    /* storage: {
         provider: 'mongodb', // || adapter: 'mongodb'
-            dbName: 'new-cs',
+            dbName: 'contentstack',
             // username: 'user',	// OPTIONAL
             // password: 'user1234',
             server: {

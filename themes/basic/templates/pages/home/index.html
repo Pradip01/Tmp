@@ -15,7 +15,7 @@
 				<div class='field'><div class='key'>Heading</div><div class='value'>{{entry.banner.heading}}</div></div>
 				<div class='field'><div class='key'>Description</div><div class='value'>{{entry.banner.description}}</div></div>
 				<div class='field'>
-					<div class='key'>Banner image(url) </div> <div class='file'><a href='{{getAssetUrl(entry.banner.banner_image)}}'>{{entry.banner.banner_image.filename}}</a></div>
+					<div class='key'>Banner image(url) </div> <div class='file'><a href='{{getAssetUrl(entry.banner.banner_image)}}'><img src="{{getAssetUrl(entry.banner.banner_image)}}" alt="{{entry.banner.banner_image.filename}}"></a></div>
 				</div>
 			</div>
 			</div>
@@ -44,7 +44,7 @@
 				 <div class='group-field'> 
 							<div class='field'><div class='key'>Title</div><div class='value'>{{_entry_images_section_images.title}}</div></div>
 							<div class='field'>
-								<div class='key'>Image(url) </div> <div class='file'><a href='{{getAssetUrl(_entry_images_section_images.image)}}'>{{_entry_images_section_images.image.filename}}</a></div>
+								<div class='key'>Image(url) </div> <div class='file'><a href='{{getAssetUrl(_entry_images_section_images.image)}}'><img src="{{getAssetUrl(_entry_images_section_images.image)}}" alt="{{_entry_images_section_images.image.filename}}"></a></div>
 							</div>
 				 </div>
 					{%- endfor %}
@@ -74,7 +74,7 @@
 				<div class='field'><div class='key'>slash</div><div class='value'>{{entry.fundamentals_section.slash}}</div></div>
 				<div class='field'><div class='key'>Sub heading</div><div class='value'>{{entry.fundamentals_section.sub_heading}}</div></div>
 				<div class='field'>
-					<div class='key'>File(url) </div> <div class='file'><a href='{{getAssetUrl(entry.fundamentals_section.file)}}'>{{entry.fundamentals_section.file.filename}}</a></div>
+					<div class='key'>File(url) </div> <div class='file'><a href='{{getAssetUrl(entry.fundamentals_section.file)}}'><img src="{{getAssetUrl(entry.fundamentals_section.file)}}"></a></div>
 				</div>
 				<div class='field'><div class='key'>Description</div><div class='value'>{{entry.fundamentals_section.description}}</div></div>
 			</div>

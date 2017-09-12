@@ -3435,3 +3435,21 @@
 {"level":"info","message":"'In progress' status has been saved on Built.io Contentstack.","timestamp":"2017-09-11T13:27:53.106Z"}
 {"level":"info","message":"{\"entry\":{\"name\":\"default\",\"status\":2,\"message\":\"Publish : Asset has been published successfully.\"}}","timestamp":"2017-09-11T13:28:02.014Z"}
 {"level":"info","message":"'Publish' status has been saved on Built.io Contentstack.","timestamp":"2017-09-11T13:28:03.696Z"}
+{"level":"info","message":"Attempting connection to the Built.io Contentstack server...","timestamp":"2017-09-12T05:02:24.224Z"}
+{"level":"info","message":"Connection ID: 0.8592120745474401","timestamp":"2017-09-12T05:02:28.455Z"}
+{"level":"warn","message":"Resending authentication call.","timestamp":"2017-09-12T05:02:30.458Z"}
+{"level":"info","message":"Connection authorized","timestamp":"2017-09-12T05:02:30.478Z"}
+{"level":"info","message":"Connection established successfully!","timestamp":"2017-09-12T05:02:33.155Z"}
+{"level":"info","message":"Attempting connection to the Built.io Contentstack server...","timestamp":"2017-09-12T05:23:27.274Z"}
+{"level":"info","message":"Connection ID: 0.4672433197852164","timestamp":"2017-09-12T05:23:31.410Z"}
+{"level":"info","message":"Connection authorized","timestamp":"2017-09-12T05:23:33.410Z"}
+{"level":"info","message":"Connection established successfully!","timestamp":"2017-09-12T05:23:36.048Z"}
+{"level":"info","message":"Attempting connection to the Built.io Contentstack server...","timestamp":"2017-09-12T05:27:20.736Z"}
+{"level":"info","message":"Connection ID: 0.7229459228759607","timestamp":"2017-09-12T05:27:24.784Z"}
+{"level":"warn","message":"Resending authentication call.","timestamp":"2017-09-12T05:27:26.786Z"}
+{"level":"info","message":"Connection authorized","timestamp":"2017-09-12T05:27:27.105Z"}
+{"level":"info","message":"Connection established successfully!","timestamp":"2017-09-12T05:27:29.523Z"}
+{"level":"info","message":"Attempting connection to the Built.io Contentstack server...","timestamp":"2017-09-12T05:29:16.378Z"}
+{"level":"info","message":"Connection ID: 0.8538422882252079","timestamp":"2017-09-12T05:29:22.375Z"}
+{"level":"info","message":"Connection authorized","timestamp":"2017-09-12T05:29:22.981Z"}
+{"level":"info","message":"Connection established successfully!","timestamp":"2017-09-12T05:29:26.236Z"}
